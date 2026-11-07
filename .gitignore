@@ -1,0 +1,15 @@
+# secrets (never commit keys)
+.env
+
+# virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# charts are optional and must not be committed
+*.png
+*.jpg
+*.svg
+*.pdf
